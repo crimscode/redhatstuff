@@ -25,6 +25,7 @@ html, body {
 }
 .card{
   border-radius: 35px;
+  height: 550px;
 }
 .article-title {
   font-size: 3rem;
@@ -42,4 +43,21 @@ html, body {
   height: 50vh;
   width: 85%;
   margin: 0px auto;
+}
+.card-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 70%;
+}
+.special{
+  font-size: 11px;
+}
+.main-description{
+  margin-bottom: 50px;
+}
+figure img{
+  border-top: 5px solid #000;
+  border-bottom: 3px dashed #000;
 }
